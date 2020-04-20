@@ -31,6 +31,7 @@ c
 import sys, glob
 import numpy as np
 import xarray as xr
+sys.path.insert(0,"/scratch/cnt0024/hmg2840/albert7a/DEV/git/xscale")
 import xscale.spectral.fft as xfft
 import xscale 
 import Wavenum_freq_spec_func as wfs
